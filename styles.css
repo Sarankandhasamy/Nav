@@ -1,0 +1,76 @@
+/*
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+body{
+    background-image: url(nav.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.Logo{
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+    border-radius: 80px;
+    display: flex;
+    flex:1; 
+    object-fit: cover;
+}
+
+.Navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    background-color: rgba(255,255,255,.1);
+    box-shadow: 0 25px 45px rgba(0,0,0,.2);
+    border-radius: 50px;
+    border: 2px solid rgba(255,255,255,0.2);
+    backdrop-filter: blur(5px);
+    margin-top: 10px;
+}
+
+.Menu li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+   
+}
+
+.Menu li a{
+    
+    font-size: 18px;
+    color:black;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+.Menu li a:hover{
+    color: gray;
+}
+*/
+
+.box_1{
+    background-color: purple;
+    color:white;
+    padding :1rem;
+}
+.box_2{
+    background-color: gold;
+    color:black;
+    padding :1rem;
+}
+
+@media screen and (min-width:780px)
+{
+    .Container{
+        display: flex;
+    }
+    .box_1{
+        background-color:green;
+    }
+}
