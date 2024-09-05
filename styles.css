@@ -65,12 +65,13 @@ body{
     padding :1rem;
 }
 
-@media screen and (min-width:560px)
+@media screen and (min-width:360px)
 {
     .Container{
         display: flex;
     }
     .box_1{
         background-color:green;
+        color: white;
     }
 }
