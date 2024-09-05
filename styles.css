@@ -54,6 +54,9 @@ body{
 }
 */
 
+.Container{
+    display:flex;
+}
 .box_1{
     background-color: purple;
     color:white;
@@ -65,13 +68,17 @@ body{
     padding :1rem;
 }
 
-@media screen and (min-width:360px)
+@media screen and (max-width:360px)
 {
     .Container{
-        display: flex;
+        display: block;
     }
     .box_1{
         background-color:green;
-        color: white;
+        color:black;
+    }
+    .box_2{
+        background-color: cornflowerblue;
+        color:white;
     }
 }
