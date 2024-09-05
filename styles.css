@@ -65,7 +65,7 @@ body{
     padding :1rem;
 }
 
-@media screen and (min-width:780px)
+@media screen and (min-width:360px)
 {
     .Container{
         display: flex;
